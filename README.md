@@ -24,3 +24,23 @@
 6.  Key 생성
 
     > https://aistudio.google.com -> Get API Key
+
+
+### 폴더 구조
+```
+PROJECT_FOLDER
+    - /.venv(가상환경)
+    - /agents(실제 개발 폴더)
+    - README.md
+```
+
+### ADK 생성 (CMD)
+
+```
+adk create [이름]
+```
+
+### ADK 실행
+```
+adk web [이름] // Web버전으로 실행
+```
