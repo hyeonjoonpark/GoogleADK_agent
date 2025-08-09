@@ -34,6 +34,7 @@
 PROJECT_FOLDER
     - /.venv(가상환경)
     - /agents(실제 개발 폴더)
+        - /greeting_agent
     - README.md
 ```
 
@@ -47,3 +48,7 @@ adk create [이름]
 ```
 adk web [이름] // Web버전으로 실행
 ```
+
+### .env 파일
+`adk create 생성할 이름` 으로 생성시 .env 파일이 만들어진다
+.env 파일 안에 GOOGLE_API_KEY 부분에 자신이 발급받은 API_KEY가 들어있다 (중요 정보이기 때문에 GIT등에 올릴 때는 조심하자)
