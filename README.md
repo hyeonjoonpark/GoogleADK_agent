@@ -16,6 +16,9 @@
     # Window
     .venv\Scripts\activate.bat // 가상환경 접속
     ```
+
+    가상화면에서 계속 빠져나가는 경우
+    보기 > 명령팔레트 (Ctrl + Shift + P) > Python Interpreter > .venv 선택 : 터미널의 디폴트를 가상환경으로 설정
 5. 라이브러리 설치
     ```
     pip install google-adk
