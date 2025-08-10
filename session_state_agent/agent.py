@@ -2,6 +2,7 @@ from google.adk.agents.llm_agent import Agent
 from google.adk.tools.tool_context import ToolContext
 
 def set_preferences(category: str, value: str, tool_context: ToolContext) -> dict:
+    """Set user preferences for a specific category."""
     preferences = tool_context.state.get('user_preferences', {})
     preferences[category] = value
     tool_context.state['user_preferences'] = preferences
@@ -11,6 +12,7 @@ def set_preferences(category: str, value: str, tool_context: ToolContext) -> dic
     }
 
 def get_preferences(tool_context: ToolContext) -> dict:
+    """Get user preferences for a specific category."""
     preferences = tool_context.state.get('user_preferences', {})
     return {
         'status': 'success',
