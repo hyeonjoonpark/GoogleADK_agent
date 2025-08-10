@@ -55,6 +55,19 @@ adk web [이름] // Web버전으로 실행
 
 Ex) `adk web agents` -> 하위에 있는 greeting_agent, capital_agent, search_agent를 전부 실행
 
+---
+
+API SERVER로 실행하기
+```
+adk api_server [이름]
+
+예시) adk api_server agents
+```
+
+API SERVER 테스트 방법
+
+POSTMAN 설치 -> URL입력 -> HttpMethod 선택 (GET, POST, PUT, PATCH, DELETE 등) -> 요청파라미터 존재 시 입력
+
 ### .env 파일
 `adk create 생성할 이름` 으로 생성시 .env 파일이 만들어진다
 .env 파일 안에 GOOGLE_API_KEY 부분에 자신이 발급받은 API_KEY가 들어있다 (중요 정보이기 때문에 GIT등에 올릴 때는 조심하자)
