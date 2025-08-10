@@ -53,7 +53,7 @@ adk web [이름] // Web버전으로 실행
 
 `adk web [상위폴더이름]` 을 실행하면 하위에 생성된 agent가 전부 WEB버전으로 실행된다
 
-ETC) `adk web agents` -> 하위에 있는 greeting_agent, capital_agent, search_agent를 전부 실행
+Ex) `adk web agents` -> 하위에 있는 greeting_agent, capital_agent, search_agent를 전부 실행
 
 ### .env 파일
 `adk create 생성할 이름` 으로 생성시 .env 파일이 만들어진다
